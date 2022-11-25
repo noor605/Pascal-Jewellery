@@ -1,0 +1,135 @@
+html, body {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  height: 100%;
+  min-width: 100%;
+  font-size: 13px;
+  color: #333333;
+  direction: ltr;
+  -webkit-text-size-adjust: none;
+  background-color:#a60928;
+  } 
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+
+#wrapper {max-width:1200px; margin:auto; align:center;} 
+
+
+nav {     height:50px;
+    	margin: 0px auto; 
+	text-align: center;
+   /* background-color: #3B3B3B;*/
+   
+   /* Adds the transparent background */
+background-color: #;
+color:#a60928;
+
+}
+
+nav ul ul {
+	display: none;
+
+	
+}
+
+	nav ul li:hover > ul {
+		display: block;
+		background-color:#a60928;
+	}
+
+
+nav ul {
+
+	padding: 0 0px;
+	border-radius: 0px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	color:#a60928;
+		background-color: #fff;
+
+
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+			color:#a60928;
+
+	}
+
+	nav ul li {
+		float: left;
+		width:166px;
+			color:#a60928;
+
+	}
+	
+		nav ul li:hover {
+		    
+			background-color:#a60928;
+			color:#fff;
+		}
+			nav ul li:hover a {
+				color: White;
+			}
+		
+		nav ul li a {
+			display: block; padding: 17px 0px;
+				color:#a60928;
+ text-decoration: none;
+		}
+			
+		
+	nav ul ul {
+	
+		background: #a60928; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+	/*#6b727c    #575f6a */
+		nav ul ul li {
+			float: none; 
+			border-top: 1px solid #fff;
+			border-bottom: 1px solid #fff; position: relative;
+		}
+			nav ul ul li a {
+			    text-align:center;
+				padding: 10px 0px;
+				color: #fff;
+			}	
+				nav ul ul li a:hover {
+				
+					background: #fff;
+					color:#a60928;
+				}
+		
+	nav ul ul ul {
+		position: absolute; left: 100%; top:0;
+	}
+		
+				
+
+
+/*section area*/
+    section {position:absolute;width:1158px; height:1570px; background:rgba(255,255,255,1); margin-top:20px; margin-left:20px;border:1px solid #D6D6D6;}
+    section p {line-height:20px;word-spacing:2px;padding:0 10 0 20;}
+    section h1 {color: #222222;font-size:20px;font-family: "Segoe UI Light";margin:0 0 20 10;}
+    
+
+
+/*aside area*/
+   aside{height:1473px;width:250px;background:#F4F4F4;position:absolute;margin-left:950px;margin-top:84px;border:1px solid #D6D6D6;}
+
+
+
+/*footer area*/
+    footer {height: 100px; width:1160px; background:#a60928;position:absolute; margin:1570 0 10 20;border-top:4px solid #fff;
+	
+-webkit-box-shadow: 0px 0px 18px 0px #999;
+-moz-box-shadow: 0px 0px 18px 0px #999;
+box-shadow: 0px 0px 18px 0px #999;
+}
+	
+	.footercontainer{width:800px;height:50px;background:#a60928;margin:0 0 0 0; color:#fff;}
+

@@ -1,0 +1,148 @@
+/* CSS Document */
+ html, body {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  height: 100%;
+  min-width: 100%;
+  font-size: 13px;
+  color: #333333;
+  direction: ltr;
+  -webkit-text-size-adjust: none;
+  background-color:#a60928;
+  } 
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+
+#wrapper {width:1200px; margin:auto; align:center;} 
+
+
+nav {     height:40px;
+    	margin: 0px auto; 
+	text-align: center;
+   /* background-color: #3B3B3B;*/
+   
+   /* Adds the transparent background */
+background-color:#a60928;
+color: rgba(1, 1, 1, 0.8);
+
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+
+nav ul {
+
+	padding: 0 20px;
+	border-radius: 0px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+		float: left;
+	}
+	
+		nav ul li:hover {
+		    
+			background-color:#222222;
+		}
+			nav ul li:hover a {
+				color: White;
+			}
+		
+		nav ul li a {
+			display: block; padding: 12px 40px;
+			color: #CCCCCC; text-decoration: none;
+		}
+			
+		
+	nav ul ul {
+	
+		background: #333333; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+	/*#6b727c    #575f6a */
+		nav ul ul li {
+			float: none; 
+			border-top: 1px solid #6b727c;
+			border-bottom: 1px solid #575f6a; position: relative;
+		}
+			nav ul ul li a {
+			    text-align:left;
+				padding: 10px 40px;
+				color: #fff;
+			}	
+				nav ul ul li a:hover {
+				
+					background: #222222;
+				}
+		
+	nav ul ul ul {
+		position: absolute; left: 100%; top:0;
+	}
+		
+		
+
+
+/*section area*/
+    section {position:absolute;width:940px; height:700px; background:#F4F4F4; margin-top:70px;border:1px solid #D6D6D6;}
+    section p {line-height:20px;word-spacing:2px;padding:0 10 0 20;}
+    section h1 {color: #333333;font-size:20px;font-weight:lighter;margin-left:20px;margin-bottom:10px;}
+    
+
+
+/*aside area*/
+   aside{height:700px;width:250px;background:white;position:absolute;margin-left:950px;margin-top:70px;background:#F4F4F4;border:1px solid #D6D6D6;}
+
+
+
+/*footer area*/
+    footer {height: 200px; width:1200px; background:white;position:absolute;margin-top:800px;border-top:4px solid #232323;
+	
+-webkit-box-shadow: 0px 0px 18px 0px #999;
+-moz-box-shadow: 0px 0px 18px 0px #999;
+box-shadow: 0px 0px 18px 0px #999;
+}
+	
+     footer p {padding: 10px 0 0 10px;}
+	.footercontainer{width:800px;height:150px;background:white;margin:15 0 0 0;}
+	
+
+.footermenu ul li{
+   
+   list-style-type:none; 
+   }
+
+.footermenu li{
+    
+    margin-bottom: 10px;
+	
+	}
+
+.footermenu ul li a{
+   
+   text-decoration:none;
+    
+   color: black;
+}
+.footermenu ul li a:hover{
+   transition: all 0.3s ease-in-out 0s;
+   text-decoration:none;
+   color: brown;   
+}
+
+

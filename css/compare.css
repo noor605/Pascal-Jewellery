@@ -1,0 +1,69 @@
+
+#compare_container
+{
+	position:absolute;
+	width:800px;
+	height:800px;
+
+	margin-top:30px;
+	margin-left:200px;
+}
+
+
+div#compare_brands{
+	width:1000px;
+	text-align:center;
+	margin:0px auto;
+}
+div#compare_brands h1{
+	font-family:calibri;
+	color:#666;
+}
+div#compare_brands .compare_col{
+	float:left;
+	width:398px;
+	height:850px;
+	border:solid 1px #CCC;
+	margin-top:0px;
+	
+	background-color:#FFF;
+}
+div#compare_brands .compare_col .brand_select{
+	width:200px;
+	height:30px;
+	margin-top:10px;
+}
+div#compare_brands .compare_col .des{
+	width:350px;
+	height:500px;
+	margin:0px auto;
+	margin-top:40px;
+	border-radius:5px;
+	padding:10px;
+	visibility:hidden;
+	
+}
+div#compare_brands .compare_col .des img{
+	width:300px;
+	height:240px;
+}
+div#compare_brands .compare_col .des .des_para{
+	text-align:justify;
+	font-family:CALIBRI;
+	font-size:small;
+	list-style:url(images/green-checkmark4.jpg);
+	margin-left:10px;
+}
+#ssProducts_header
+{
+	position:absolute;
+	margin-top:0px;
+	width:800px;
+	height:50px;
+	
+	text-align:left;
+	font-size:25px;
+	line-height:1.6;
+	background-image:url(../images/line%20for%20heading.jpg);
+	font-family:Cambria;
+}
