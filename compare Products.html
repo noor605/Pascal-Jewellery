@@ -1,0 +1,262 @@
+<html>
+<head>
+<title>Pascal Imitation Jewelery</title>
+<link rel="icon" href="images/logo_title.png"/>
+<link rel="stylesheet" type="text/css" href="css/button.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/compare.css">
+<script src="js/compare.js" type="application/javascript"></script>
+
+	<!-- JavaScript for back to top button -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Show or hide the sticky footer button
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.go-top').fadeIn(200);
+				} else {
+					$('.go-top').fadeOut(200);
+				}
+			});
+			
+			// Animate the scroll to top
+			$('.go-top').click(function(event) {
+				event.preventDefault();
+				
+				$('html, body').animate({scrollTop: 0}, 300);
+			})
+		});
+	</script>
+
+</head>
+<body>
+
+
+ <div id="wrapper">
+
+  
+
+
+<left>
+&nbsp;<img src="images/header.png" height="150" width="1000"/>&nbsp;
+</left>
+
+
+
+
+
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+        <!--sub catogaries jewelery-->
+		<li><a href="brands.html">Brands</a>
+			<ul>
+			    <li><a href="#">Abid Jewellers</a>
+                	<ul>
+                    	
+                        <li><a href="Abid ORG.html">Original</a></li>
+                    	<li><a href="Abid SEMI.html">Semi Precious</a></li>
+                    	<li><a href="Abid Arti.html">Artificial</a></li>
+                    
+                    </ul>
+                </li>
+                <li><a href="#">Amber Gems & Jewellery</a>
+                	<ul>
+                    	
+                        <li><a href="Amb ORG.html">Original</a></li>
+                    	<li><a href="Amb SEMI.html">Semi Precious</a></li>
+                    	<li><a href="Amb Arti.html">Artificial</a></li>
+                    
+                    </ul>
+                </li>
+			    <li><a href="#">ARY Jewellers</a>
+               		<ul>
+                    	
+                        <li><a href="ARY ORG.html">Original</a></li>
+                    	<li><a href="ARY SEMI.html">Semi Precious</a></li>
+                    	<li><a href="ARY Arti.html">Artificial</a></li>
+                    
+                    </ul> 
+                </li>
+				<li><a href="#">Deccan Jewellers</a>
+                	<ul>
+                    	
+                        <li><a href="Deccan ORG.html">Original</a></li>
+                    	<li><a href="Deccan SEMI.html">Semi Precious</a></li>
+                    	<li><a href="Deccan Arti.html">Artificial</a></li>
+                    
+                    </ul>
+                </li>
+				<li><a href="#">Ennz Designer Jewellery</a>
+                	<ul>
+                    	
+                        <li><a href="Ennz ORG.html">Original</a></li>
+                    	<li><a href="Ennz SEMI.html">Semi Precious</a></li>
+                    	<li><a href="Ennz Arti.html">Artificial</a></li>
+                    
+                    </ul>
+                </li>
+			</ul>
+			
+			   	<li style="background: rgba(0, 0,0 ,0.1);"><a href="compare Products.html">Compare Products</a>
+
+			
+		
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="feedback.html">Feedback</a></li>
+		<li><a href="about.html">About us</a></li>
+		<li><a href="contact.html">Contact us</a></li>
+		
+
+	</ul>
+</nav>
+
+
+
+
+<div class="slider" style="margin-top:5px;">
+<!-- Start Slider-->
+<iframe src="http://www.cincopa.com/media-platform/iframe.aspx?fid=AkNAXq74X41C" frameborder="0" allowfullscreen scrolling="no" style="width:1160px;height:408px;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End slider-->
+</div>
+
+
+
+<section>
+                     
+ <!--*****************---->
+<div id="compare_container">
+<div id="ssProducts_header">
+<strong style="color:rgba(153,153,153,1); font:30px calibri;">Compare Your Choice</strong>
+</div>
+<br>
+<br><br>
+	<!-----*******----->
+	<div id="compare_brands">
+    <div class="compare_col">
+    <!------------>
+<select class="brand_select" id="frombrand" onChange="from_brands();">
+<option>Select Brands </option>
+<option>Abid Jewellers </option>
+<option>ARY Jewellers</option>
+<option>Deccan Jewellers</option>
+</select>
+    
+    <!------------>
+<select class="brand_select" id="fromproduct" style="visibility:hidden;" onChange="from_products();" >
+</select>
+<div id="des1" class="des">
+  <img width="324" height="246" id="des1_image" />
+  <p class="des_para" id="des1_para"></p></div>
+</div>
+<div class="compare_col">
+    
+    
+    <!------------>
+<select class="brand_select" id="tobrand" onChange="to_brands();">
+<option>Compare With</option>
+ <option>Ennz Designer Jewellery</option>
+<option>Amber Gems & Jewellery</option>
+<option>Chottani Jewellers</option>
+ </select> 
+     
+     <!------------>
+ <select class="brand_select" id="toproduct"  style="visibility:hidden;"  onchange="to_products();">
+</select>
+<div id="des2" class="des"><img id="des2_image" />
+<p class="des_para" id="des2_para"></p></div>
+</div>
+</div>
+</div>			 
+			
+</section>
+
+
+<footer>
+                           <div class="footermenu">
+			   
+			   <div style="position:absolute;margin:0 0 0 50;width:100px;">
+               <ul>
+			   <h3 style="margin:10 0 10 0;">Original</h3>
+               <li><a href="Abid ORG.html">Abid Jewellers</a></li>
+               <li><a href="Amb ORG.html">Amber Jewellers</a></li> 
+               <li><a href="ARY ORG.html">ARY Jewellers</a></li> 
+               <li><a href="Deccan ORG.html">Deccan Jewell</a></li>
+                <li><a href="Ennz ORG.html">Ennz Jewellers</a></li>
+               </ul>   
+               </div>
+			   
+			
+               <div style="position:absolute;margin:0 0 0 200;width:100px;">
+               <ul>
+			   <h3 style="margin:10 0 10 0;">Precious</h3>
+              <li><a href="Abid SEMI.html">Abid Jewellers</a></li>
+               <li><a href="Amb SEMI.html">Amber Jewellers</a></li> 
+               <li><a href="ARY SEMI.html">ARY Jewellers</a></li> 
+               <li><a href="Deccan SEMI.html">Deccan Jewell</a></li>
+                <li><a href="Ennz SEMI.html">Ennz Jewellers</a></li>
+               </ul>   
+               </div>
+			   
+			   
+			   <div style="position:absolute;margin:0 0 0 350;width:100px;">
+               <ul>
+			   <h3 style="margin:10 0 10 0;">Artificial</h3>
+              <li><a href="Abid Arti.html">Abid Jewellers</a></li>
+               <li><a href="Amb Arti.html">Amber Jewellers</a></li> 
+               <li><a href="ARY Arti.html">ARY Jewellers</a></li> 
+               <li><a href="Deccan Arti.html">Deccan Jewell</a></li>
+                <li><a href="Ennz Arti.html">Ennz Jewellers</a></li>
+               </ul>   
+               </div>
+			   
+			   
+			   <div style="position:absolute;margin:0 0 0 500;width:100px;">
+               <ul>
+			   <h3 style="margin:10 0 10 0;">About</h3>
+               <li><a href="about.html">Company</a></li>
+               <li><a href="about.html">Site Map</a></li> 
+               <li><a href="about.html">Location</a></li> 
+               <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               </ul>   
+               </div>
+			   
+			   
+			   <div style="position:absolute;margin:0 0 0 650;width:100px;">
+               <ul>
+			   <h3 style="margin:10 0 10 0;">Follow us</h3>
+               <li><a href="http://www.facebook.com">Facebook</a></li>
+               <li><a href="http://www.google.com">Gmail</a></li> 
+               <li><a href="http://www.twitter.com">Twitter</a></li> 
+               <li><a href="http://www.linkedin.com">linkedin</a></li>
+                <li><a href="http://www.youtube.com">Youtube</a></li>
+               </ul>   
+               </div>
+	        <div style="position:absolute;width:350px;height:170px;background:rgba(255,255,255,1);margin:0 0 0 800;">
+			   <h3 style="padding:10 0 10 20;">Getting Social</h3>
+			   <p style="margin:-10 0 0 10;">Want to say hi? We are most likely to be found on Social media.</p>
+			   <div class="sociallink">
+			   <a href="http://www.twitter.com"><img style ="margin:30 0 0 20;width:10%;" src="images/twitter.png" alt="Twitter" /></a>
+			   <a href="http://www.facebook.com"><img style ="margin:30 0 0 10;width:10%;" src="images/facebook.png" alt="Facebook" /></a>
+			   <a href="http://www.google.com"><img style ="margin:30 0 0 10;width:10%;" src="images/google.png" alt="Google" /></a>
+			   <a href="http://www.linkedin.com"><img style ="margin:30 0 0 10;width:10%;" src="images/linkedin.png" alt="Linkedin" /></a>
+               <a href="http://www.youtube.com"><img style ="margin:30 0 0 10;width:10%;" src="images/youtube.png" alt="Youtube" /></a>
+			   </div>
+		</div>
+        
+          </div>     
+			   
+<div class="footercontainer" style="margin-left:400px; margin-top:20px;padding:5 0 0 10px;width:400px;">Copyright© 2014 Pascal Imitation Jewellers.All right reserved.</div>
+
+<a href="#" class="go-top">Go Top</a>
+
+</footer>
+
+
+</div><!--End Wrapper-->
+
+
+</body>
+</html>
